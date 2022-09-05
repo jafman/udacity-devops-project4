@@ -8,8 +8,8 @@ docker build --tag=ml_microservice .
 
 # Step 2: 
 # List docker images
-# docker image list
+docker image list
 
 # Step 3: 
 # Run flask app
-docker run -d -p 8000:80 ml_microservice
+docker run -p 8000:80 ml_microservice
